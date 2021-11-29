@@ -67,10 +67,10 @@
     <Compile Include="QuestionCtrl.Designer.cs">
       <DependentUpon>QuestionCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuestionDB\QuestionDatabase.cs">
+    <Compile Include="QuestionDBCtrl\QuestionDatabase.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="QuestionDB\QuestionDatabase.designer.cs">
+    <Compile Include="QuestionDBCtrl\QuestionDatabase.designer.cs">
       <DependentUpon>QuestionDatabase.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
@@ -91,7 +91,7 @@
     <EmbeddedResource Include="QuestionCtrl.resx">
       <DependentUpon>QuestionCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuestionDB\QuestionDatabase.resx">
+    <EmbeddedResource Include="QuestionDBCtrl\QuestionDatabase.resx">
       <DependentUpon>QuestionDatabase.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

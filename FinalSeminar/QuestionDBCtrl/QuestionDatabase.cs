@@ -18,13 +18,6 @@ namespace FinalSeminar
         private List<string> lstTopic = new List<string>();
         private Dictionary<string, List<MulQuestion>> quesDb = new Dictionary<string, List<MulQuestion>>();
 
-        Dictionary<int, List<int>> temp = new Dictionary<int, List<int>>() 
-        {
-            //ở đây tao tính sẽ thay bằng 4 cái list question do tao vẫn đang suy nghĩ trình bày sao nên vẫn chưa làm 
-            {0,new List<int>() { 1,2,3,4 }},
-            {1, new List<int>() { 5,6,7,8 }},
-        };
-
         public QuestionDatabase()
         {
             InitializeComponent();
